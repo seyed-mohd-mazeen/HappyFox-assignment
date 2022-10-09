@@ -1,0 +1,21 @@
+/*
+*
+* index.css
+* @author - Mazeen
+* @date - 9 October, 2022
+**/
+
+@import './base.css';
+@import './layout.css';
+@import './form-field.css';
+@import './header.css';
+@import './section.css';
+@import './header.css';
+@import './footer.css';
+@import './grid.css';
+@import './spacing.css';
+@import './align.css';
+@import './accordion.css';
+@import './submenu.css';
+@import './get-demo.css';
+@import './media-query.css';

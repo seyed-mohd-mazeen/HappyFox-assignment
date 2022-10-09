@@ -1,0 +1,87 @@
+/*
+*
+* get-demo.css
+* @author - Mazeen
+* @date - 9 October, 2022
+**/
+
+.demo {
+    background-image: url('../img/hdp_demo_bg.png');
+    background-size: cover;
+    padding: 50px 40px 20px 50px;
+}
+.wrapper-demo {
+    margin: auto;
+    max-width: 1050px;
+} 
+.form {
+    max-width: 1300px;
+    margin: auto;
+}
+.form h1 {
+    margin: 20px 0 0 30px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #fff;
+}
+.demo-list-item {
+    list-style: none;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.demo-list-item i {
+    margin-right: 10px;
+}
+.award-container {
+    max-width: 460px;
+    margin-top: 20px;
+}
+.award-container img {
+    margin-right: 10px;
+}
+.award-container h6 {
+    font-size: 16px;
+    margin: 0;
+    line-height: 25px;
+    font-weight: 300;
+    margin-bottom: 0;
+    color: #fff;
+}
+.award-container p {
+    margin: 0;
+}
+.award-container .row {
+    margin: 10px 10px 10px 0;
+    background-color: #0000004d;
+    padding: 15px;
+    border-radius: 20px;
+}
+.action-form {
+    background-color: #fff;
+    padding: 45px 30px 48px;
+    border-radius: 20px;
+    max-width: 400px;
+    margin-bottom: 50px;
+}
+.action-form h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 500;
+}
+.field-container a {
+    margin: auto;
+    color: #333;
+    opacity: 0.7;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 11px;
+}
+.field-container a:hover {
+    border-bottom: 1px dotted #333;
+}
+.icon-gold {
+    color: #ffc100;
+}

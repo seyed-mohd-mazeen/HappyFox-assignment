@@ -1,0 +1,43 @@
+/*
+*
+* accordion.css
+* @author - Mazeen
+* @date - 9 October, 2022
+**/
+
+.accordion-title {
+  background: none;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.4s;
+  margin-top: 10px;
+}
+.accordion-title:after {
+  content: '\002B';
+  font-weight: 300;
+  float: right;
+  font-size: 16px;
+  margin-left: 5px;
+  position: relative;
+  bottom: 20px;
+}
+.accordion-content {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  color: #363636;
+  padding: 5px 120px 0 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.accordion-content a {
+  color: #FF6200;
+}
+.pricing-accor::after {
+  display: none;
+}
+.active:after {
+  content: "\2212" !important;
+}

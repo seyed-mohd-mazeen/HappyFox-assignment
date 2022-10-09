@@ -1,0 +1,112 @@
+/*
+*
+* base.css
+* @author - Mazeen
+* @date - 9 October, 2022
+**/
+  
+@font-face {
+  font-family: HeroNewRegular;
+  src: url(../fonts/heroNew/Hero\ New-Regular.otf);
+}
+@font-face {
+  font-family: HeroNew100;
+  src: url(../fonts/heroNew/Hero\ New-\ Hairline.otf);
+}
+@font-face {
+  font-family: HeroNew200;
+  src: url(../fonts/heroNew/Hero\ New-Thin.otf);
+}
+@font-face {
+  font-family: HeroNew300;
+  src: url(../fonts/heroNew/Hero\ New-UltraLight.otf);
+}
+@font-face {
+  font-family: HeroNew400;
+  src: url(../fonts/heroNew/Hero\ New-Light.otf);
+}
+@font-face {
+  font-family: HeroNew500;
+  src: url(../fonts/heroNew/Hero\ New-Medium.otf);
+}
+@font-face {
+  font-family: HeroNew600;
+  src: url(../fonts/heroNew/Hero-New-Bold.otf);
+}
+@font-face {
+  font-family: HeroNew700;
+  src: url(../fonts/heroNew/Hero\ New-ExtraBold.otf);
+}
+@font-face {
+  font-family: HeroNew800;
+  src: url(../fonts/heroNew/Hero\ New-ExtraBold.otf);
+}
+@font-face {
+  font-family: HeroNew900;
+  src: url(../fonts/heroNew/Hero\ New-Super.otf);
+}
+
+body {
+  max-width: auto;
+  margin: 0;
+  padding: 0;
+  color: #555;
+  font-size: 16px;
+  font-family: HeroNewRegular, sans-serif;
+}
+h1 {
+  color: #000;
+  font-size: 34px;
+  margin: 0;
+  font-weight: 500;
+  max-width: 500px;
+  line-height: 40px;
+  font-family: HeroNew500, sans-serif
+}
+h2 {
+  color: #000;
+  font-size: 26px;
+  margin: 0;
+  margin-bottom: 20px;
+  font-weight: 500;
+  line-height: 40px;
+  font-family: HeroNew500, sans-serif
+}
+h3 {
+  color: #000;
+  font-size: 19px;
+  font-weight: 500;
+  max-width: 300px;
+  margin: 0;
+  margin-bottom: 40px;
+  font-family: HeroNew500, sans-serif
+}
+h4 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+  font-family: HeroNew500, sans-serif;
+  margin: 0
+}
+h5 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  margin: 0 0 10px 0;
+  font-family: HeroNew400, sans-serif;
+}
+p {
+  max-width: 506px;
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 40px;
+  margin-top: 5px;
+  font-family: HeroNew300, sans-serif
+}
+a {
+  cursor: pointer;
+  font-weight: 500;
+  text-decoration: none;
+  color: #000;
+}

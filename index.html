@@ -1,0 +1,1178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>HappyFox Helpdesk Ticketing System | For IT, Support & Call Centers</title>
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
+    <link href="./style/index.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d3db405f5e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- NAV-BAR STARTS -->
+    <header>
+        <div class="wrapper p-rel">
+            <div class="only-xs">
+                <div class="row width-full-xs">
+                    <div class="cell-50w v-center">
+                        <i class="fa-solid fa-bars" onclick="toggleMenuXs('submenu-xs')" id="menu-xs-icon"></i>
+                    </div>
+                    <div class="cell-1 v-center">
+                        <img class="logo" src="./img/helpdesk-logo.png" alt="help-desk-logo" width="115" height="30">
+                    </div>
+                    <div class="cell-135w">
+                        <div class="btn-container">
+                            <a href="./get-demo.html" class="width-full-xs"><button class="primary-btn">Get a Demo</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div id="submenu-xs" class="menu-item-xs width-full-xs">
+                    <div class="back-xs" onclick="toggleMenuXs('submenu-xs')"><span><i class="fa-solid fa-arrow-left-long pl-62"></i>Back</span></div>
+                    <div class="row pl-62 width-full-xs">
+                        <ul class="submenu-list-xs width-full-xs">
+                            <li onclick="collapseSubmenuXS('feature-list', this)" class="sub-menu-list-heading">Features</li>
+                            <div class="section-line"></div>
+                            <li id="feature-list" class="submenu-item-xs-list">
+                                <ul class="feature-list-xs">
+                                    <li onclick="collapseSubmenuXS('feature-overview', this)" class="sub-menu-list-heading fs-15 mt-0">Overviews</li>
+                                    <li id="feature-overview" class="submenu-item-xs-list">
+                                        <ul class="sub-feature-xs">
+                                            <li><a href="https://www.happyfox.com/ticket-support-system/">Help Desk Tour</a></li>
+                                            <li><a href="https://www.happyfox.com/help-desk-software-demo/">Get a Demo</a></li>
+                                        </ul>
+                                    </li>
+                                    <li onclick="collapseSubmenuXS('subfeature-list', this)" class="sub-menu-list-heading fs-15">Features</li>
+                                    <li id="subfeature-list" class="submenu-item-xs-list">
+                                        <ul class="sub-feature-xs">
+                                            <li><a href="https://www.happyfox.com/help-desk-ticketing-system/">Ticketing System</a></li>
+                                            <li><a href="https://www.happyfox.com/knowledge-base/">Knowledge Base</a></li>
+                                            <li><a href="https://www.happyfox.com/knowledge-base/">Canned Actions</a></li>
+                                            <li><a href="https://www.happyfox.com/automated-help-desk/">Automation</a></li>
+                                            <li><a href="https://www.happyfox.com/automated-help-desk/">Task Management</a></li>
+                                            <li><a href="https://www.happyfox.com/asset-management/">Asset Management</a></li>
+                                            <li><a href="https://www.happyfox.com/help-desk-satisfaction-survey/">Satisfaction Survey</a></li>
+                                            <li><a href="https://www.happyfox.com/help-desk-reports/">Help Desk Reports</a></li>
+                                            <li><a href="https://www.happyfox.com/ticket-support-system/">See More Features</a></li>
+                                        </ul>
+                                    </li>
+                                    <li onclick="collapseSubmenuXS('integration-list', this)" class="sub-menu-list-heading fs-15">In li id="integration-list" class="submenu-item-xs-list">
+                                        <ul class="sub-feature-xs">
+                                            <li><a href="https://www.happyfox.com/ticket-support-system/">HappyFox Chat</a></li>
+                                            <li><a href="https://www.happyfox.com/help-desk-integration/salesforce-crm-help-desk-integration/">Salesforce</a></li>
+                                            <li><a href="https://www.happyfox.com/help-desk-integration/aircall-voice/">Aircall</a></li>
+                                            <li><a href="https://www.happyfox.com/help-desk-integration/microsoft-teams/">Microsoft Teams</a></li>
+                                            <li><a href="https://www.happyfox.com/help-desk-integration/slack/">Slack</a></li>
+                                            <li><a href="https://www.happyfox.com/help-desk-integration/social-help-desk-facebook/">Facebook</a></li>
+                                            <li><a href="https://www.happyfox.com/help-desk-integration/help-desk-issue-tracking/">Jira</a></li>
+                                            <li><a href="https://www.happyfox.com/help-desk-integration/shopify-ecommerce-help-desk/">Shopify</a></li>
+                                            <li><a href="https://www.happyfox.com/help-desk-integration/help-desk-okta-sso-integration/">Okta</a></li>
+                                            <li><a href="https://www.happyfox.com/help-desk-integration/azure-ad-sso-integration/"> Azure</a></li>
+                                            <li><a href="https://www.happyfox.com/help-desk-integration/">See more Integrations</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li onclick="collapseSubmenuXS('solution-list', this)" class="sub-menu-list-heading">Solution</li>
+                            <div class="section-line"></div>
+                            <li id="solution-list" class="submenu-item-xs-list">
+                                <ul class="feature-list-xs">
+                                    <li onclick="collapseSubmenuXS('industries-list', this)" class="sub-menu-list-heading fs-15">Industries</li>
+                            <li id="industries-list" class="submenu-item-xs-list">
+                                    <ul class="sub-feature-xs">
+                                        <li><a href="https://www.happyfox.com/solution/help-desk-software-for-schools/"> Education</a></li>
+                                        <li><a href="https://www.happyfox.com/solution/help-desk-software-for-it-services/">IT Services</a></li>
+                                        <li><a href="https://www.happyfox.com/solution/help-desk-software-for-non-profit-ngo/">Non-Profit Organisations</a></li>
+                                        <li><a href="https://www.happyfox.com/solution/airline-customer-support-software/">Airlines</a></li>
+                                        <li><a href="https://www.happyfox.com/solution/retail-ecommerce-customer-support-software/">Retail</a></li>
+                                        <li><a href="https://www.happyfox.com/solution/retail-ecommerce-customer-support-software/">Telecom</a></li>
+                                        <li><a href="https://www.happyfox.com/solution/hospital-help-desk-software/">Healthcare</a></li>
+                                        <li><a href="https://www.happyfox.com/solution/real-estate-customer-service-software/">Real Estate</a></li>
+                                        <li><a href="https://www.happyfox.com/solution/help-desk-software-for-hospitality-travel/">Travel</a></li>
+                                        <li><a href="https://www.happyfox.com/solution/help-desk-software-for-government-organization/">Government</a></li>
+                                    </ul>
+                            </li>
+                            <li onclick="collapseSubmenuXS('businesses-list', this)" class="sub-menu-list-heading fs-15">Businesses</li>
+                            <li id="businesses-list" class="submenu-item-xs-list">
+                                    <ul class="sub-feature-xs">
+                                        <li><a href="https://www.happyfox.com/enterprise/">Enterprise</a></li>
+                                        <li> <a href="https://www.happyfox.com/small-business-help-desk-software/">Small-Business</a></li>
+                                    </ul>
+                                </li>
+                                <li onclick="collapseSubmenuXS('teams-list', this)" class="sub-menu-list-heading fs-15">Teams</li>
+                                <li id="teams-list" class="submenu-item-xs-list">
+                                <ul class="sub-feature-xs ">
+                                    <li>
+                                    <li><a href="https://www.happyfox.com/solution/human-resource-help-desk-software/">HumanResources</a></li>
+                                    <li><a href="https://www.happyfox.com/software/facility-management-help-desk/">Facilities</a></li>
+                                    <li><a href="https://www.happyfox.com/software/facility-management-help-desk/">Marketing</a></li>
+                                    <li><a href="https://www.happyfox.com/software/facility-management-help-desk/">Sales</a></li>
+                                    <li><a href="https://www.happyfox.com/software/facility-management-help-desk/">IT Support</a></li>
+                                    <li><a href="https://www.happyfox.com/software/facility-management-help-desk/">CustomerSupport</a></li>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        </li>
+                        <li class="sub-menu-list-heading pricing-accor"><a
+                                href="https://www.happyfox.com/help-desk-price/">Pricing</a></li>
+                        <div class="section-line"></div>
+                        <li class="sub-menu-list-heading" onclick="collapseSubmenuXS('resource-list', this)">Resources</li>
+                        <div class="section-line"></div>
+                        <li id="resource-list" class="submenu-item-xs-list">
+                            <ul class="resources-list-xs">
+                                <li onclick="collapseSubmenuXS('sub-resource-list', this)" class="sub-menu-list-heading fs-15">Resources</li>
+                                <li id="sub-resource-list" class="submenu-item-xs-list">
+                                    <ul class="sub-feature-xs">
+                                        <li><a href="https://www.happyfox.com/help-desk-resources/"> E-books & Guides</a></li>
+                                        <li><a href="https://www.happyfox.com/webinars/">Webinars</a></li>
+                                        <li><a href="https://www.happyfox.com/customer-stories/">Customer Stories</a></li>
+                                        <li><a href="https://www.youtube.com/user/HappyFoxApp/"> Videos</a></li>
+                                        <li><a href="https://support.happyfox.com/home/">Support Center</a></li>
+                                        <li><a href="https://blog.happyfox.com/">Blog</a>
+                                    </ul>
+                                </li>
+                                <li class="sub-menu-list-heading fs-15" onclick="collapseSubmenuXS('featured-img', this)">Featured</li>
+                                <li id="featured-img" class="submenu-item-xs-list nav-card">
+                                    <ul class="sub-feature-xs">
+                                        <li class="nav-card">
+                                            <img src="./img/sub-menu/resources-submenu/3-hd.png" alt="img" width="142">
+                                            <p>Managing your Customer Support using HappyFox Helpdesk</p>
+                                            <a href="https://www.happyfox.com/webinars/managing-your-customer-support-using-happyfox-helpdesk/">Watch now<i class="fa-solid fa-arrow-right right-arrow"></i></a>
+                                        </li>
+                                        <li class="nav-card">
+                                            <img src="./img/sub-menu/resources-submenu/1-hd.jpg" alt="img" width="142">
+                                            <p>Helpdesk: A Complete Guide (2022)</p>
+                                            <a href="https://www.happyfox.com/help-desk/">Read more<i class="fa-solid fa-arrow-right right-arrow"></i> </a>
+                                        </li>
+                                        <li class="nav-card">
+                                            <img src="./img/sub-menu/resources-submenu/2-hd.png" alt="img" width="142">
+                                            <p>An Introduction to Omnichannel Help Desk Software</p>
+                                            <a href="https://www.happyfox.com/customer-service-infographics/introduction-to-omnichannel-help-desk-software/">Download now<i class="fa-solid fa-arrow-right right-arrow"></i> </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="only-l">
+                <div class="row">
+                    <div class="cell-200w">
+                        <img class="logo" src="./img/helpdesk-logo.png" alt="help-desk-logo" width="115" height="30">
+                    </div>
+                    <div class="cell-1">
+                        <ul class="header-menu">
+                            <li onclick="toggleSubmenu('feature-submenu')" class="main-menu-item"><a><span>Features</span><img src="./img/menu-arrow.png" alt="arrow-down"></a></li>
+                            <li onclick="toggleSubmenu('solutions-submenu')" class="main-menu-item"><a><span>Solutions</span><img src="./img/menu-arrow.png" alt="arrow-down"></a></li>
+                            <li><a href="https://www.happyfox.com/help-desk-price/">Pricing</a></li>
+                            <li onclick="toggleSubmenu('resources-submenu')" class="main-menu-item"><a><span>Resources</span><img src="./img/menu-arrow.png" alt="arrow-down"></a></li>
+                        </ul>
+                    </div>
+                    <div class="cell-200w">
+                        <div class="btn-container">
+                            <button class="primary-btn">Get a demo</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- FEATURES - SUBMENU - STARTS -->
+                <div class="submenu-item" id="feature-submenu">
+                    <div class="row">
+                        <div class="cell-1">
+                            <h3 class="submenu-title mb-40">OVERVIEW</h3>
+                            <ul class="submenu-items-list">
+                                <li>
+                                    <a href="https://www.happyfox.com/ticket-support-system/">
+                                        <h5><i class="fa-solid fa-rocket icon-purple"></i>Help Desk Tour<i class="fa-solid fa-arrow-right right-arrow"></i></h5>
+                                        <p>Provide faster and better support for your customers.</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.happyfox.com/help-desk-software-demo/">
+                                    <h5><i class="fa-solid fa-user-plus icon-blue"></i>Get a Demo<i class="fa-solid fa-arrow-right right-arrow"></i></h5>
+                                    <p>See HappyFox Helpdesk in action.</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="cell-1">
+                            <h3 class="submenu-title">FEATURES</h3>
+                            <ul class="submenu-items-list">
+                                <li>
+                                    <a href="https://www.happyfox.com/help-desk-ticketing-system/">
+                                    <h5><i class="fa-solid fa-server icon-purple"></i>Ticketing System<i class="fa-solid fa-arrow-right right-arrow"></i></h5>
+                                    <p>Deliver exceptional customer service with HappyFox.</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.happyfox.com/canned-actions/">
+                                    <h5><i class="fa-solid fa-comment-dots icon-blue"></i>Canned Actions<i class="fa-solid fa-arrow-right right-arrow"></i></h5>
+                                    <p>Respond faster using templated responses and actions.</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.happyfox.com/task-management/">
+                                    <h5><i class="fa-solid fa-square-check icon-green"></i>Task Management<i class="fa-solid fa-arrow-right right-arrow"></i></h5>
+                                    <p>Create and manage all the tasks involved in resolving a ticket.</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.happyfox.com/help-desk-reports/">
+                                    <h5><i class="fa-solid fa-chart-pie icon-blue"></i>Help Desk Reports<i class="fa-solid fa-arrow-right right-arrow"></i></h5>
+                                    <p>Monitor, Analyze and Improve your Customer Support.</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="cell-1">
+                            <ul class="submenu-items-list">
+                                <li class="dis-b mt-85">
+                                    <a href="https://www.happyfox.com/knowledge-base/">
+                                    <h5 class="submenu-subtitle"><i class="fa-solid fa-database color-lblue"></i>Knowledge Base<i class="fa-solid fa-arrow-right right-arrow"></i></h5>
+                                    <p>Promote self-service; build help and FAQ pages.</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.happyfox.com/automated-help-desk/">
+                                    <h5><i class="fa-solid fa-repeat icon-red"></i>Automation<i class="fa-solid fa-arrow-right right-arrow"></i></h5>
+                                    <p>Reduce the time spent on repetitive tasks.</p>
+                                    </a>
+                                </li>
+                                <li> 
+                                    <a href="https://www.happyfox.com/help-desk-satisfaction-survey/">
+                                    <h5><i class="fa-solid fa-paste icon-purple"></i>Satisfaction Survey<i class="fa-solid fa-arrow-right right-arrow"></i></h5>
+                                    <p>Get Feedback and Improve Customer Experience.</p>
+                                    </a>
+                                </li>
+                                <li class="box-see-more">
+                                    <a href="https://www.happyfox.com/ticket-support-system/" class="v-center">See more features<i class="fa-solid fa-arrow-right ml-10"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="cell-1 box-grey">
+                            <h3 class="submenu-title mb-40">INTEGRATIONS</h3>
+                            <ul class="submenu-items-list">
+                                <li>
+                                    <a href="https://www.happyfox.com/help-desk-integration/happyfoxchat-live-chat-integration/">
+                                    <p><img class="align-mid" src="./img/sub-menu/hf-int-icon.png" alt="HappyFox Chat" width="20"> HappyFox Chat<i class="fa-solid fa-arrow-right right-arrow"></i></p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.happyfox.com/help-desk-integration/salesforce-crm-help-desk-integration/">
+                                    <p><img class="align-mid" src="./img/sub-menu/salesforce-int-icon.png" alt="SalesForce" width="20"> Salesforce<i class="fa-solid fa-arrow-right right-arrow"></i></p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.happyfox.com/help-desk-integration/aircall-voice/">
+                                    <p><img class="align-mid" src="./img/sub-menu/aircall-int-icon.png" alt="Aircall" width="20"> Aircall<i class="fa-solid fa-arrow-right right-arrow"></i></p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.happyfox.com/help-desk-integration/microsoft-teams/">
+                                    <p><img class="align-mid" src="./img/sub-menu/ms-teams-logo.png" alt="microsoft teams" width="20"> Microsoft Teams<i class="fa-solid fa-arrow-right right-arrow"></i></p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.happyfox.com/help-desk-integration/slack/">
+                                    <p><img class="align-mid" src="./img/sub-menu/slack-int-icon.png" alt="Slack" width="20"> Slack<i class="fa-solid fa-arrow-right right-arrow"></i></p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.happyfox.com/help-desk-integration/social-help-desk-facebook/">
+                                    <p><img class="align-mid" src="./img/sub-menu/fb-int-icon.png" alt="Facebook" width="20"> Facebook<i class="fa-solid fa-arrow-right right-arrow"></i></p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.happyfox.com/help-desk-integration/shopify-ecommerce-help-desk/">
+                                    <p><img class="align-mid" src="./img/sub-menu/shopify-int-icon.png" alt="Shopify" width="20"> Shopify<i class="fa-solid fa-arrow-right right-arrow"></i></p>
+                                    </a>
+                                </li>
+                                <li><a href="https://www.happyfox.com/help-desk-integration/" class="box-white">See more Integrations<i class="fa-solid fa-arrow-right right-arrow"></i> </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- FEATURES - SUBMENU - ENDS -->
+                <!-- SOLUTIONS - SUBMENU - STARTS -->
+                <div class="submenu-item" id="solutions-submenu">
+                    <div class="row">
+                        <div class="cell-1">
+                            <h3 class="submenu-title mb-40">INDUSTRIES</h3>
+                            <ul class="submenu-items-list">
+                                <li>
+                                    <a href="https://www.happyfox.com/solution/help-desk-software-for-schools/">
+                                    <h5><i class="fa-solid fa-graduation-cap color-lblue"></i>Education<i class="fa-solid fa-arrow-right right-arrow"></i></h5>
+                                    <p>Streamline your IT and Operations Support</p>
+                                    </a> 
+                                </li>
+                                <li>
+                                    <a href="https://www.happyfox.com/solution/help-desk-software-for-it-services/">
+                                    <h5><i class="fa-solid fa-laptop icon-blue"></i>IT Services<i class="fa-solid fa-arrow-right right-arrow"></i></h5>
+                                    <p>Provide the best IT support</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.happyfox.com/solution/help-desk-software-for-non-profit-ngo/">
+                                    <h5><i class="fa-solid fa-leaf color-lblue"></i></i>Non-Profit Organisations<i class="fa-solid fa-arrow-right right-arrow"></i></h5>
+                                    <p>Affordable help desk for efficient operations</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.happyfox.com/solution/airline-customer-support-software/">
+                                    <h5><i class="fa-solid fa-plane-departure icon-blue"></i>Airlines<i class="fa-solid fa-arrow-right right-arrow"></i></h5>
+                                    <p>Elevate your customer service experience</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="cell-1">
+                            <ul class="submenu-items-list">
+                                <li class="mt-85">
+                                    <a href="https://www.happyfox.com/solution/retail-ecommerce-customer-support-software/">
+                                    <h5><i class="fa-solid fa-tag icon-red"></i>Retail<i class="fa-solid fa-arrow-right right-arrow"></i></h5>
+                                    <p>Delight your customers with speedy support</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.happyfox.com/solution/telecom-customer-support-software/">
+                                    <h5><i class="fa-solid fa-signal icon-blue"></i>Telecom<i class="fa-solid fa-arrow-right right-arrow"></i></h5>
+                                    <p>Meet your SLAs and Improve Retention</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.happyfox.com/solution/hospital-help-desk-software/">
+                                    <h5><i class="fa-solid fa-heart-pulse icon-red"></i>Healthcare<i class="fa-solid fa-arrow-right right-arrow"></i></h5>
+                                    <p>Your all-in-one support stack</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.happyfox.com/solution/real-estate-customer-service-software/">
+                                    <h5><i class="fa-solid fa-house icon-purple"></i>Real Estate<i class="fa-solid fa-arrow-right right-arrow"></i></h5>
+                                    <p>Serve your agents and buyers better</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="cell-1">
+                            <ul class="submenu-items-list">
+                                <li class="mt-85">
+                                    <a href="https://www.happyfox.com/solution/help-desk-software-for-hospitality-travel/">
+                                    <h5 class="submenu-subtitle"><i class="fa-solid fa-briefcase color-lblue"></i>Travel<i class="fa-solid fa-arrow-right right-arrow"></i></h5>
+                                    <p>Deliver Multi-Channel Customer Service</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.happyfox.com/solution/help-desk-software-for-government-organization/">
+                                    <h5><i class="fa-solid fa-building-columns icon-blue"></i>Government<i class="fa-solid fa-arrow-right right-arrow"></i></h5>
+                                    <p>Robust support solution for public sector</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="cell-1 box-grey">
+                            <h3 class="submenu-title mb-40">BUSINESSES</h3>
+                            <ul class="submenu-items-list">
+                                <li>
+                                    <a href="https://www.happyfox.com/enterprise/">
+                                    <p><img class="align-mid" src="./img/sub-menu/solution-submenu/enterprise-icon.png" alt="HappyFox Chat" width="20"> Enterprise<i class="fa-solid fa-arrow-right right-arrow"></i></p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.happyfox.com/small-business-help-desk-software/">
+                                    <p><img class="align-mid" src="./img/sub-menu/solution-submenu/smal-business-icon.png" alt="HappyFox Chat" width="20"> Small-Business<i class="fa-solid fa-arrow-right right-arrow"></i></p>
+                                    </a>
+                                </li>
+                            </ul>
+                            <h3 class="submenu-title ">TEAMS</h3>
+                            <ul class="submenu-items-list">
+                                <li>
+                                    <a href="https://www.happyfox.com/solution/human-resource-help-desk-software/">
+                                    <p><img class="align-mid" src="./img/sub-menu/solution-submenu/hr-int-icon.png" alt="Human-Resources" width="20"> Human Resources<i class="fa-solid fa-arrow-right right-arrow"></i></p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.happyfox.com/software/facility-management-help-desk/">
+                                    <p><img class="align-mid" src="./img/sub-menu/solution-submenu/facilities-int-icon.png" alt="Facilities" width="20"> Facilities<i class="fa-solid fa-arrow-right right-arrow"></i></p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.happyfox.com/solution/help-desk-for-marketing-management/">
+                                    <p><img class="align-mid" src="./img/sub-menu/solution-submenu/marketing-int-icon.png" alt="Marketing" width="20"> Marketing<i class="fa-solid fa-arrow-right right-arrow"></i></p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.happyfox.com/solution/sales-management-help-desk/">
+                                    <p><img class="align-mid" src="./img/sub-menu/solution-submenu/it-int-icon.png" alt="Sales" width="20"> Sales<i class="fa-solid fa-arrow-right right-arrow"></i></p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.happyfox.com/solution/it-help-desk-software/">
+                                    <p><img class="align-mid" src="./img/sub-menu/solution-submenu/it_support_icon.png" alt="IT-Support" width="20"> IT Support<i class="fa-solid fa-arrow-right right-arrow"></i></p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.happyfox.com/customer-service-software/">
+                                    <p><img class="align-mid" src="./img/sub-menu/solution-submenu/customer-int-icon.png" alt="Customer-Support" width="20"> Customer Support<i class="fa-solid fa-arrow-right right-arrow"></i></p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- SOLUTIONS - SUBMENU - ENDS -->
+                <!-- RESOURCES - SUBMENU - STARTS -->
+                <div class="submenu-item" id="resources-submenu">
+                    <div class="row">
+                        <div class="cell-1">
+                            <h3 class="submenu-title mb-40">RESOURCES</h3>
+                            <ul class="submenu-items-list">
+                                <li>
+                                    <a href="https://www.happyfox.com/help-desk-resources/">
+                                    <h5><i class="fa-solid fa-book icon-purple"></i>E-books & Guides<i class="fa-solid fa-arrow-right right-arrow"></i></h5>
+                                    <p>Resources to reinvent your customer service experience.</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.happyfox.com/customer-stories/">
+                                    <h5><i class="fa-solid fa-star icon-orange"></i>Customer Stories<i class="fa-solid fa-arrow-right right-arrow"></i></h5>
+                                    <p>Thousands of great companies call HappyFox a great friend.</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://support.happyfox.com/home/">
+                                    <h5><i class="fa-solid fa-circle-question icon-blue"></i>Support Center<i class="fa-solid fa-arrow-right right-arrow"></i></h5>
+                                    <p>What can we help you with? Talk to our customer support.</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="cell-1">
+                            <ul class="submenu-items-list">
+                                <li class="mt-85">
+                                    <a href="https://support.happyfox.com/home/">
+                                    <h5><i class="fa-solid fa-video icon-blue"></i>Webinars<i class="fa-solid fa-arrow-right right-arrow"></i></h5>
+                                    <p>Learn how to make the most of HappyFox products.</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.youtube.com/user/HappyFoxApp/">
+                                    <h5><i class="fa-brands fa-youtube icon-red"></i>Videos<i class="fa-solid fa-arrow-right right-arrow"></i></h5>
+                                    <p>Checkout our library of educational videos.</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://blog.happyfox.com/">
+                                    <h5><i class="fa-solid fa-file-pen icon-purple"></i>Blog<i class="fa-solid fa-arrow-right right-arrow"></i></h5>
+                                    <p>Learn tips, stories, and new techniques.</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="cell-2 box-grey">
+                            <h3 class="submenu-title mb-40">FEATURED</h3>
+                            <div class="row header-box-h">
+                                <div class="cell-160w">
+                                    <img src="./img/sub-menu/resources-submenu/3-hd.png" alt="HappyFox Chat" width="142">
+                                </div>
+                                <div class="cell-1">
+                                    <h5>WEBINAR</h5>
+                                    <p>Managing your Customer Support using HappyFox Helpdesk</p>
+                                    <a href="https://www.happyfox.com/webinars/managing-your-customer-support-using-happyfox-helpdesk/">watch now <img class="align-mid" src="./img/sub-menu/resources-submenu/right-arrow.png" alt="right arrow"></a>
+                                </div>
+                            </div>
+                            <div class="row header-box-h">
+                                <div class="cell-160w">
+                                    <img src="./img/sub-menu/resources-submenu/1-hd.jpg" alt="HappyFox Chat" width="142">
+                                </div>
+                                <div class="cell-1">
+                                    <h5>GUIDE</h5>
+                                    <p>Helpdesk: A Complete Guide (2022)</p>
+                                    <a href="https://www.happyfox.com/help-desk/">read now<img class="align-mid" src="./img/sub-menu/resources-submenu/right-arrow.png" alt="right arrow"></a>
+                                </div>
+                            </div>
+                            <div class="row header-box-h">
+                                <div class="cell-160w">
+                                    <img src="./img/sub-menu/resources-submenu/2-hd.png" alt="HappyFox Chat" width="142">
+                                </div>
+                                <div class="cell-1">
+                                    <h5>INFOGRAPHICS</h5>
+                                    <p>An Introduction to Omnichannel Help Desk Software</p>
+                                    <a href="https://www.happyfox.com/customer-service-infographics/introduction-to-omnichannel-help-desk-software/">download now<img class="align-mid" src="./img/sub-menu/resources-submenu/right-arrow.png" alt="right arrow"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- RESOURCES - SUBMENU - ENDS -->
+            </div>
+        </div>
+    </header>
+    <!-- NAV-BAR ENDS -->
+
+    <!-- ABOUT US - SECTION STARTS -->
+    <section id="about-us" class="section-dark pt-160">
+        <div class="wrapper">
+            <div class="row section-column-xs">
+                <div class="cell-1">
+                    <h3 class="sub-heading">Help Desk Ticketing System</h3>
+                    <h1 class="title">Best Ticketing System for Operations Teams</h1>
+                    <p class="mt-30">HappyFox is one of the easiest ticketing system that's simple to configure and easy to use for support agents</p>
+                    <div class="box-primary v-center section-column-xs">
+                        <input class="text-field width-full-xs t-center-xs" type="text" placeholder="Enter your work email">
+                        <a href="./get-demo.html" class="width-full-xs"><button class="primary-btn btn-l width-full-xs section-mt-xs">GET A DEMO</button></a>
+                    </div>
+                </div>
+                <div class="cell-1">
+                    <iframe class="about-us-iframe p-rel width-full-xs" width="533" height="300" src="https://www.youtube.com/embed/cD0FfdHdNis" title="Meet the New HappyFox Help Desk Software" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <img class="about-us-bg only-l" src="./img/use-case-banner.png" alt="bg-image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ABOUT US - SECTION ENDS -->
+
+    <!-- CLIENTS -SECTION STARTS -->
+    <section id="clients" class="section-light section-line pb-30 section-xs ptb-50">
+        <div class="wrapper">
+            <h3 class="sub-heading t-center mb-45 mw-0">Trusted by Industry-Leading Companies</h3>
+            <div class="row block-xs">
+                <div class="cell-1 v-center mb-25 width-full-xs">
+                    <img src="./img/clients/cybercoders.png" alt="cybercoder-logo" width="153" class="h-center-xs">
+                </div>
+                <div class="cell-1 v-center mb-25 width-full-xs">
+                    <img src="./img/clients/smartrent.png" alt="smartrent-logo" width="132" class="h-center-xs">
+                </div>
+                <div class="cell-1 v-center mb-25 width-full-xs">
+                    <img src="./img/clients/planned-parenthood.png" alt="plannedparenthood-logo" width="117"
+                        class="h-center-xs">
+                </div>
+                <div class="cell-1 v-center mb-25 width-full-xs">
+                    <img src="./img/clients/m.png" alt="m-logo" width="125" class="h-center-xs">
+                </div>
+                <div class="cell-1 v-center  width-full-xs">
+                    <img src="./img/clients/harbour-air-seaplanes.png" alt="harbour-air-seaplanes-logo" width="160" class="h-center-xs">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CLIENTS -SECTION ENDS -->
+
+    <!-- FEATURES - SECTION STARTS -->
+    <section id="features" class="section-light pb-300">
+        <div class="wrapper">
+            <h3 class="sub-heading">Top Ticketing Software features</h3>
+            <h2>Functionality that you need without the complexity</h2>
+            <div class="grid-container card-container grid-r-0">
+                <div class="card">
+                    <div class="card-img section-mt-xs">
+                        <img src="./img/features/tickets-queue.png" alt="ticket-queue" width="320" class="width-full-xs">
+                    </div>
+                    <div class="card-content">
+                        <h4>Tickets Queue</h4>
+                        <p class="mt-0">Create custom ticket queues by adding one or more rules to filter tickets based on priority and responsibility.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img section-mt-xs">
+                        <img src="./img/features/categories.png" alt="ticket-queue" width="212" class="width-full-xs">
+                    </div>
+                    <div class="card-content">
+                        <h4>Categories</h4>
+                        <p class="mt-0">All incoming tickets are automatically sorted into categories like customer support, sales, marketing, and billing.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img section-mt-xs">
+                        <img src="./img/features/omnichannel-ticketing.png" alt="ticket-queue" width="253" class="width-full-xs">
+                    </div>
+                    <div class="card-content">
+                        <h4>Omnichannel Ticketing</h4>
+                        <p class="mt-0">Manage customer conversations from multiple channels like email, social, chat & phone calls in an omnichannel help desk.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img section-mt-xs">
+                        <img src="./img/features/ticket-status.png" alt="ticket-queue" width="279" class="width-full-xs">
+                    </div>
+                    <div class="card-content">
+                        <h4>Tickets Status</h4>
+                        <p class="mt-0">Slice and dice tickets into more manageable chunks based on the ticket status.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img section-mt-xs">
+                        <img src="./img/features/pinned-tickets.png" alt="ticket-queue" width="249" class="width-full-xs">
+                    </div>
+                    <div class="card-content">
+                        <h4>Pinned Tickets</h4>
+                        <p class="mt-0">Pinned tickets are like your daily to-do lists. They help you set priorities and
+                            organize your time better.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FEATURES - SECTION ENDS -->
+
+    <!-- SUPPORT - SECTION STARTS -->
+    <section id="support" class="section-dark pb-0 pt-0 ptb-50 bg-white">
+        <div class="wrapper">
+            <div class="row p-rel img-position pos-rel-xs">
+                <div class="cell-1 t-center">
+                    <h2>Support requests handled in a jiffy</h2>
+                    <img id="support-img" src="./img/support/ticket-action.png" width="555" alt="ticket-action" class="t-center only-l">
+                </div>
+            </div>
+            <div class="row section-column-xs">
+                <div class="cell-1">
+                    <div class="card-type-2 support-box" id="support-1" onclick="toggleTab('support-box', 'support-1', 'support-img','./img/support/ticket-action.png')">
+                        <h4>Ticket Action</h4>
+                        <p>Use quick actions to save time by directly changing priority, ticket status, due date, and assignees on the ticket list.</p>
+                    </div>
+                </div>
+                <div class="cell-1">
+                    <div class="card-type-2 support-box" id="support-2" onclick="toggleTab('support-box', 'support-2', 'support-img','./img/support/quick-reply.png')">
+                        <h4>Quick Reply</h4>
+                        <p>Use instant preview and Quick Reply to acknowledge actions and interact faster without opening the ticket.</p>
+                    </div>
+                </div>
+                <div class="cell-1">
+                    <div class="card-type-2 support-box" id="support-3" onclick="toggleTab('support-box', 'support-3', 'support-img','./img/support/bulk-action.png')">
+                        <h4>Bulk Action</h4>
+                        <p>Quickly select related tickets and apply bulk actions like changing ticket status, assignee, and due dates.</p>
+                    </div>
+                </div>
+                <div class="cell-1">
+                    <div class="card-type-2 support-box" id="support-4" onclick="toggleTab('support-box', 'support-4', 'support-img','./img/support/search-filter.png')">
+                        <h4>Search & Filter</h4>
+                        <p>Find tickets easily using powerful search. Use advanced filters to easily and quickly find what you’re looking for.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SUPPORT - SECTION ENDS -->
+
+    <!-- CUSTOMER SERVICE - SECTION STARTS -->
+    <section id="customer-service" class="section-light section-xs ptb-50">
+        <div class="wrapper">
+            <h3 class="sub-heading">Support Ticket System built the right way</h3>
+            <h2 class="mb-40">Take The Complexity Out Of Customer Service</h2>
+            <div class="grid-container-2">
+                <div class="v-center">
+                    <img id="img-cc" src="./img/customer-service/customer-service-1.png" width="555" alt="customer-service-1" class="h-center-xs mb-50 width-full-xs">
+                </div>
+                <div class="v-center pl-100">
+                    <div>
+                        <h3>Streamline Customer Communications</h3>
+                        <div class="accordion-title accordion-cc" id="cc-1" onclick="collapse('accordion-cc', 'cc-1', 'img-cc', './img/customer-service/customer-service-1.png')">
+                            <h4>Respond better within ticket threads</h4>
+                        </div>
+                        <div class="accordion-content">
+                            <p>Track all conversations and actions in one place. Craft easy-to-read replies with the rich text editor while the composer auto-saves edits in real-time.</p>
+                        </div>
+                        <div class="accordion-title accordion-cc" id="cc-2" onclick="collapse('accordion-cc', 'cc-2', 'img-cc', './img/customer-service/customer-service-2.png')">
+                            <h4>Use tags to categorize & sort tickets</h4>
+                        </div>
+                        <div class="accordion-content">
+                            <p>Categorize tickets on a granular level and track, search, and sort related tickets efficiently.</p>
+                        </div>
+                        <div class="accordion-title accordion-cc" id="cc-3" onclick="collapse('accordion-cc', 'cc-3', 'img-cc', './img/customer-service/customer-service-3.png')">
+                            <h4>View all attachments in one place</h4>
+                        </div>
+                        <div class="accordion-content">
+                            <p>View all attachments in one unified destination and preview files without leaving the ticket..</p>
+                        </div>
+                        <div class="accordion-title accordion-cc" id="cc-4" onclick="collapse('accordion-cc', 'cc-4', 'img-cc', './img/customer-service/customer-service-4.png')">
+                            <h4>Collaborate over private notes</h4>
+                        </div>
+                        <div class="accordion-content">
+                            <p>Notify and rope in support team members for a quick discussion for clarity by leaving them a Private Note on the ticket.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CUSTOMER SERVICE - SECTION ENDS -->
+
+    <!-- SUPPORT TEAM - SECTION STARTS -->
+    <section id="support-team" class="section-light ptb-50">
+        <div class="wrapper">
+            <div class="grid-container-2">
+                <div class="v-center pr-80">
+                    <div>
+                        <h3>Boost Your Support Team’s Productivity</h3>
+                        <div class="accordion-title accordion-ts" id="ts-1" onclick="collapse('accordion-ts', 'ts-1', 'img-st', './img/support-team/support-team-1.png')">
+                            <h4>Pre-compose replies with canned actions</h4>
+                        </div>
+                        <div class="accordion-content">
+                            <p>Respond to FAQs with pre-composed replies and KB articles to save time and customer support effort.</p>
+                        </div>
+                        <div class="accordion-title accordion-ts" id="ts-2" onclick="collapse('accordion-ts', 'ts-2', 'img-st', './img/support-team/support-team-2.png')">
+                            <h4>Use auto-timer to monitor time spent</h4>
+                        </div>
+                        <div class="accordion-content">
+                            <p>Focus on doing your best work by automatically tracking time spent on each ticket & understanding time usage trends.</p>
+                        </div>
+                        <div class="accordion-title accordion-ts" id="ts-3" onclick="collapse('accordion-ts', 'ts-3', 'img-st', './img/support-team/support-team-3.png')">
+                            <h4>Avoid agent collision</h4>
+                        </div>
+                        <div class="accordion-content">
+                            <p>Know who else in your support team is viewing and acting on a ticket to avoid agent collision and overlaps.</p>
+                        </div>
+                        <div class="accordion-title accordion-ts" id="ts-4" onclick="collapse('accordion-ts', 'ts-4', 'img-st', './img/support-team/support-team-4.png')">
+                            <h4>Simplify mundane help desk tasks</h4>
+                        </div>
+                        <div class="accordion-content">
+                            <p>Use the cloning, merging, relating, and forwarding features to ease help desk ticket management.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="v-center grid-reverse-xs">
+                    <img id="img-st" src="./img/support-team/support-team-1.png" width="555" alt="support-team-1" class="h-center-xs mb-50 width-full-xs">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SUPPORT TEAM - SECTION ENDS -->
+
+    <!-- SUPPORT EXPERIENCE - SECTION STARTS -->
+    <section id="support-experience" class="section-light ptb-50">
+        <div class="wrapper">
+            <div class="grid-container-2">
+                <div class="v-center">
+                    <img id="img-se" src="./img/support-experience/support-experience-1.png" width="555"
+                        alt="customer-service-1" class="h-center-xs mb-50 width-full-xs">
+                </div>
+                <div class="v-center pl-100">
+                    <div>
+                        <h3>Use Data to Improve the Support Experience</h3>
+                        <div class="accordion-title accordion-se" id="se-1" onclick="collapse('accordion-se', 'se-1', 'img-se', './img/support-experience/support-experience-1.png')">
+                            <h4>View all ticket details in one place</h4>
+                        </div>
+                        <div class="accordion-content">
+                            <p>Avoid overwhelming customers with multiple questions about the issue by easily accessing all relevant information on the ticket.</p>
+                        </div>
+                        <div class="accordion-title accordion-se" id="se-2" onclick="collapse('accordion-se', 'se-2', 'img-se', './img/support-experience/support-experience-2.png')">
+                            <h4>Customize support with contact details</h4>
+                        </div>
+                        <div class="accordion-content">
+                            <p>Make it easy to prioritize personalized customer care and reduce ambiguity with readily available details about your customer.</p>
+                        </div>
+                        <div class="accordion-title accordion-se" id="se-3" onclick="collapse('accordion-se', 'se-3', 'img-se', './img/support-experience/support-experience-3.png')">
+                            <h4>Access data from integrated apps</h4>
+                        </div>
+                        <div class="accordion-content">
+                            <p>Organize and use customer data to make better decisions by seamlessly integrating your favorite apps with HappyFox Help Desk.</p>
+                        </div>
+                        <div class="accordion-title accordion-se" id="se-4" onclick="collapse('accordion-se', 'se-4', 'img-se', './img/support-experience/support-experience-4.png')">
+                            <h4>Be aware of ticket actions via subscriptions</h4>
+                        </div>
+                        <div class="accordion-content">
+                            <p>Promote transparency and align your team by adding collaborators and stakeholders to tickets..</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SUPPORT EXPERIENCE - SECTION ENDS -->
+
+    <!-- OPERATIONAL TASKS - SECTION STARTS -->
+    <section id="operational-tasks" class="section-dark section-line pb-0 ptb-50">
+        <div class="wrapper">
+            <div class="grid-container-2">
+                <div class="v-center">
+                    <img src="./img/operational-tasks/client-tree.png" alt="client-tree" class="width-full-xs">
+                </div>
+                <div class="v-center grid-reverse-xs">
+                    <div>
+                        <h2>Simplify All Operational Tasks and Improve Productivity Across Teams</h2>   
+                        <h4>
+                            <a href="https://www.happyfox.com/help-desk-integration/">Explore HappyFox App Marketplace
+                            <img src="./img/right-arrow.png" width="10" alt="arrow"></a>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- OPERATIONAL TASKS - SECTION ENDS -->
+
+    <!-- SELF SERVICE - SECTION STARTS -->
+    <section id="self-service" class="section-dark pb-0 ptb-50">
+        <div class="wrapper">
+            <div class="row">
+                <div class="cell-1 v-center">
+                    <div>
+                        <h2>Encourage Self-Service with a<br> Knowledge Base Software</h2>
+                        <p class="mb-0">Build a no-code drag and drop knowledge base with
+                            HappyFox. Your customers can save themselves and you
+                            time and effort by finding solutions to common issues by
+                            referring to the knowledge base articles and FAQ
+                            without having to raise a ticket. Your staff can access
+                            internal knowledge base articles and stay up-to-date.</p>
+                    </div>
+                </div>
+                <div class="v-center only-l">
+                    <img id="self-service-img" src="./img/self-service/customer-portal.png" width="555" alt="customer-portal" class="width-full-xs">
+                </div>
+            </div>
+            <div class="row section-column-xs mt-30">
+                <div class="cell-1 ">
+                    <div class="card-type-2 self-service-box card-second" id="self-service-1" onclick="toggleTab('self-service-box', 'self-service-1', 'self-service-img','./img/self-service/customer-portal.png')">
+                        <h4>Customer Portal</h4>
+                        <p>Provide an interface that lets your customers track their service requests and incidents. Simplify incident and problem management with a stellar user experience.</p>
+                    </div>
+                </div>
+                <div class="cell-1">
+                    <div class="card-type-2 self-service-box card-second" id="self-service-2" onclick="toggleTab('self-service-box', 'self-service-2', 'self-service-img','./img/self-service/multi-brand.png')">
+                        <h4>Multi-brand</h4>
+                        <p>Create separate knowledge bases with full customization control for each product or sub-division in your organization.</p>
+                    </div>
+                </div>
+                <div class="cell-1">
+                    <div class="card-type-2 self-service-box card-second" id="self-service-3" onclick="toggleTab('self-service-box', 'self-service-3', 'self-service-img','./img/self-service/multi-lingual.png')">
+                        <h4>Multi-lingual</h4>
+                        <p>Your customers & support team can switch to any of the 15 languages supported by HappyFox’s multilingual knowledge base with a simple toggle button.</p>
+                    </div>
+                </div>
+                <div class="cell-1">
+                    <div class="card-type-2 self-service-box card-second" id="self-service-4" onclick="toggleTab('self-service-box', 'self-service-4', 'self-service-img','./img/self-service/customizable.png')">
+                        <h4>Customizable</h4>
+                        <p>You can customize your knowledge base pages with your logo, brand colors, additional links, and also pick a content layout that suits your service portal’s content structure.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SELF SERVICE - SECTION ENDS -->
+
+    <!-- TICKET MANAGEMENT - SECTION STARTS -->
+    <section id="ticket-management" class="section-light ptb-50">
+        <div class="wrapper">
+            <div class="grid-container-2">
+                <div class="pr-80 v-center pr-0-xs">
+                    <div>
+                        <h3 class="mb-20">Ticket Management for Modern IT teams</h3>
+                        <p>Help customers faster by capitalizing on your customer support team’s collective intelligence and expertise.</p>
+                        <div class="accordion-title accordion-tm" id="tm-1" onclick="collapse('accordion-tm', 'tm-1', 'img-tm', './img/ticket-management/ticket-management-1.png')">
+                            <h4>Track & manage all assets</h4>
+                        </div>
+                        <div class="accordion-content">
+                            <p>Your IT infrastructure team can manage and track all your hardware and software assets
+                                from a single place with the Happyfox Asset Management software.</p>
+                        </div>
+                        <div class="accordion-title accordion-tm" id="tm-2" onclick="collapse('accordion-tm', 'tm-2', 'img-tm', './img/ticket-management/ticket-management-2.png')">
+                            <h4>Make data-driven decisions with reports</h4>
+                        </div>
+                        <div class="accordion-content">
+                            <p>Make informed decisions with real-time Help Desk reporting. Boost your IT support team’s
+                                performance using insights from the <a href="https://www.happyfox.com/help-desk-reports/agent-activity-report/">Activity Agent Report.</a></p>
+                        </div>
+                        <div class="accordion-title accordion-tm" id="tm-3" onclick="collapse('accordion-tm', 'tm-3', 'img-tm', './img/ticket-management/ticket-management-3.png')">
+                            <h4>Deflect IT-related tickets with self-service tools</h4>
+                        </div>
+                        <div class="accordion-content">
+                            <p>Tackle repeated requests and deflect tickets with an FAQ repository and our branded, mobile-responsive, and no-code drag and drop Knowledge Base builder.</p>
+                        </div>
+                        <div class="accordion-title accordion-tm" id="tm-4" onclick="collapse('accordion-tm', 'tm-4', 'img-tm', './img/ticket-management/ticket-management-4.png')">
+                            <h4>Admins can monitor changes using audit logs</h4>
+                        </div>
+                        <div class="accordion-content">
+                            <p>With powerful change management capabilities, help desk administrators can oversee and instruct changes across your ticketing software.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="v-center grid-reverse-xs">
+                    <img id="img-tm" src="./img/ticket-management/ticket-management-1.png" width="555" alt="support-team-1" class="h-center-xs mb-50 width-full-xs">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- TICKET MANAGEMENT - SECTION ENDS -->
+
+    <!-- AUTOMATION - SECTION STARTS -->
+    <section id="automation">
+        <div class="wrapper">
+            <div class="grid-container-2">
+                <div class="v-center">
+                    <img id="img-au" src="./img/automation/automation-1.png" width="555" alt="automation-1" class="h-center-xs mb-50 width-full-xs">
+                </div>
+                <div class="v-center pl-100">
+                    <div>
+                        <h3 class="mb-20">Automation for an Efficient Ticketing System</h3>
+                        <p>Save time, effort, and money by automating your ticketing system with intelligent rule-based workflow automation software.</p>
+                        <div class="accordion-title accordion-au" id="au-1" onclick="collapse('accordion-au', 'au-1', 'img-au', './img/automation/automation-1.png')">
+                            <h4>Automate ticket assignments</h4>
+                        </div>
+                        <div class="accordion-content">
+                            <p>Avoid missing out on tickets by automatically assigning tickets to the right agent based on issue type or agent workload.</p>
+                        </div>
+                        <div class="accordion-title accordion-au" id="au-2" onclick="collapse('accordion-au', 'au-2', 'img-au', './img/automation/automation-2.png')">
+                            <h4>Use Smart Rules to automatically trigger actions</h4>
+                        </div>
+                        <div class="accordion-content">
+                            <p>Scan through your existing tickets and perform actions based on predefined conditions, building a ticket centered support workflow.</p>
+                        </div>
+                        <div class="accordion-title accordion-au" id="au-3" onclick="collapse('accordion-au', 'au-3', 'img-au', './img/automation/automation-3.png')">
+                            <h4>Cut down on SLA breaches</h4>
+                        </div>
+                        <div class="accordion-content">
+                            <p>Measure, monitor, and report on your strictly defined service level agreements (SLA) to improve customer satisfaction and achieve high-performance standards.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- AUTOMATION - SECTION ENDS -->
+
+    <!-- CALL CENTER - SECTION STARTS -->
+    <section id="call-center" class="section-light section-line ptb-50">
+        <div class="wrapper">
+            <div class="grid-container-2">
+                <div class="pr-80 v-center pr-0-xs">
+                    <div>
+                        <h3 class="mb-20">Call Center<br> Ticketing System</h3>
+                        <p>Your cloud-based call center can leverage two-way sync across social media, phone, live chat, etc. to provide omnichannel support and a better customer experience.</p>
+                        <div class="accordion-title accordion-cs" id="cs-1" onclick="collapse('accordion-cs', 'cs-1', 'img-cs', './img/call-center/call-center-1.png')">
+                            <h4>Provide seamless support via phone</h4>
+                        </div>
+                        <div class="accordion-content">
+                            <p>HappyFox offers robust phone channel support with full-fledged integration with RingCentral and AirCallcloud telephony software.</p>
+                        </div>
+                        <div class="accordion-title accordion-cs" id="cs-2" onclick="collapse('accordion-cs', 'cs-2', 'img-cs', './img/call-center/call-center-2.png')">
+                            <h4>Troubleshoot issues with minimal training</h4>
+                        </div>
+                        <div class="accordion-content">
+                            <p>Assists agents in every step of troubleshooting and empower them to tackle incoming requests with minimal training.</p>
+                        </div>
+                        <div class="accordion-title accordion-cs" id="cs-3" onclick="collapse('accordion-cs', 'cs-3', 'img-cs', './img/call-center/call-center-3.png')">
+                            <h4>Measure & analyze CSAT rates</h4>
+                        </div>
+                        <div class="accordion-content">
+                            <p>Improve customer satisfaction and measure your team’s performance by running agent or customer-wise CSAT surveys & analyzing real-time reports.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="v-center grid-reverse-xs">
+                    <img id="img-cs" src="./img/call-center/call-center-1.png" width="555" alt="call-center-1" class="h-center-xs mb-50 width-full-xs">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CALL CENTER - SECTION ENDS -->
+
+    <!-- TESTIMONY - SECTION STARTS -->
+    <section id="testimony" class="section-light t-center ptb-50">
+        <div class="wrapper">
+            <img src="./img/testimony/ent-quotes.png" alt="quote" class="p-rel quote-1 h-d-img">
+            <img src="./img/testimony/loanlogics.png" alt="loan-logics" width="122" class="mb-20">
+            <h3 class="line-40 mw-0">Since switching to HappyFox, many of our managers and administrators enjoy<br> the reporting widgets and overnight reporting</h3>
+            <h5 class="mb-0">Joseph Feola</h5>
+            <p class="mt-0 mw-0">Vice President, Support Operations</p>
+            <img src="./img/testimony/right-quote.png" alt="quote" class="p-rel quote-2 only-l">
+        </div>
+    </section>
+    <!-- TESTIMONY - SECTION ENDS -->
+
+    <!-- HELP DESK - SECTION STARTS -->
+    <section id="help-desk" class="t-center help-desk-bg section-dark ptb-50">
+        <div class="wrapper">
+            <h2 class="mb-40 help-desk-xs">Help Desk Software With A<br> Smart Ticketing System</h2>
+            <p class="mw-0 mb-40">Simplify ticket management, save time & boost productivity with<br> HappyFox Help Desk.</p>
+            <div class="box-secondary section-column-xs">
+                <input class="text-field-l width-full-xs t-center-xs" type="text" placeholder="Enter your work email"><button class="primary-btn btn-xl width-full-xs">Get a Demo</button>
+            </div>
+        </div>
+    </section>
+    <!-- HELP DESK - SECTION ENDS -->
+
+    <!-- FOOTER STARTS -->
+    <footer>
+        <div class="wrapper">
+            <!-- SUB-FOOTER STARTS -->
+            <section id="sub-footer" class="sub-footer-container">
+                <div class="grid-container-4">
+                    <div>
+                        <ul class="sub-footer-menu">
+                            <h5 class="sub-footer-title">FEATURES</h5>
+                            <li><a href="https://www.happyfox.com/email-ticketing/">Email Ticketing</a></li>
+                            <li><a href="https://www.happyfox.com/knowledge-base/">Knowledge Base</a></li>
+                            <li><a href="https://www.happyfox.com/community-discussion-forum-software/">Community Forums</a></li>
+                            <li><a href="https://www.happyfox.com/help-desk-reports/">Help Desk Reporting</a></li>
+                            <li><a href="https://www.happyfox.com/automated-help-desk/">Help Desk Automation</a></li>
+                            <li><a href="https://www.happyfox.com/multilingual-help-desk/">Multilingual Help Desk</a></li>
+                            <li><a href="https://www.happyfox.com/self-service-portal/">Self Service Portal</a></li>
+                            <li><a href="https://www.happyfox.com/help-desk-sla-management/">SLA Management</a></li>
+                            <li><a href="https://www.happyfox.com/help-desk-satisfaction-survey/">Satisfaction Survey</a></li>
+                            <li><a href="https://www.happyfox.com/help-desk-email-notification/">Email Notification</a></li>
+                            <li><a href="https://www.happyfox.com/help-desk-customization/">Help Desk Customization</a></li>
+                            <li><a href="https://www.happyfox.com/help-desk-ticket-features/">Help Desk Ticket Features</a></li>
+                            <li><a href="https://www.happyfox.com/multilingual-knowledge-base/">Multilingual Knowledge Base</a></li>
+                            <li><a href="https://www.happyfox.com/internal-knowledge-base/">Internal Knowledge Base</a></li>
+                            <li><a href="https://www.happyfox.com/help-desk-sms-notification/">HappyFox SMS</a></li>
+                            <li><a href="https://www.happyfox.com/asset-management/">Asset Management</a></li>
+                            <li><a href="https://www.happyfox.com/task-management/">Task Management</a></li>
+                            <li><a href="https://www.happyfox.com/agent-scripting/">Agent Scripting</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="sub-footer-menu">
+                            <h5 class="sub-footer-title">FOR BUSINESSES</h5>
+                            <li><a href="https://www.happyfox.com/enterprise/">Enterprise</a></li>
+                            <li><a href="https://www.happyfox.com/small-business-help-desk-software/">Small-Business</a></li>
+                        </ul>
+                        <div>
+                            <ul class="sub-footer-menu">
+                                <h5 class="sub-footer-title">FOR INDUSTRIES</h5>
+                                <li>
+                                    <a href="https://www.happyfox.com/solution/help-desk-software-for-schools/">Education</a>,
+                                    <a href="https://www.happyfox.com/solution/retail-ecommerce-customer-support-software/">Retail</a>,
+                                    <a href="https://www.happyfox.com/solution/help-desk-software-for-hospitality-travel/">Travel</a>,
+                                </li>
+                                <li>
+                                    <a href="https://www.happyfox.com/solution/help-desk-software-for-it-services/">IT Services,</a>
+                                    <a href="https://www.happyfox.com/solution/telecom-customer-support-software/">Telecom</a>,
+                                    <a href="https://www.happyfox.com/solution/help-desk-software-for-government-organization/">Government</a>,
+                                </li>
+                                <li><a href="https://www.happyfox.com/solution/help-desk-software-for-non-profit-ngo/">Non-Profit Organizations</a>,</li>
+                                <li>
+                                    <a href="https://www.happyfox.com/solution/hospital-help-desk-software/">Real Estate</a>,
+                                    <a href="https://www.happyfox.com/solution/hospital-help-desk-software/">Healthcare</a>,
+                                    <a href="https://www.happyfox.com/solution/airline-customer-support-software/">Airlines</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul class="sub-footer-menu">
+                                <h5 class="sub-footer-title">FOR TEAMS</h5>
+                                <li>
+                                    <a href="https://www.happyfox.com/solution/human-resource-help-desk-software/">HR</a>,
+                                    <a href="https://www.happyfox.com/software/facility-management-help-desk/">Facilities</a>,
+                                    <a href="https://www.happyfox.com/solution/help-desk-for-marketing-management/">Marketing</a>,
+                                </li>
+                                <li>
+                                    <a href="https://www.happyfox.com/solution/sales-management-help-desk/">Sales</a>,
+                                    <a href="https://www.happyfox.com/customer-service-software/"> Customer Support</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul class="sub-footer-menu">
+                                <h5 class="sub-footer-title">COMPARE</h5>
+                                <li><a href="https://www.happyfox.com/zendesk-alternative/">Zendesk vs HappyFox</a></li>
+                                <li><a href="https://www.happyfox.com/freshdesk-vs-happyfox/">Freshdesk vs HappyFox</a></li>
+                                <li><a href="https://www.happyfox.com/kayako-vs/">Kayako vs HappyFox</a></li>
+                                <li><a href="https://www.happyfox.com/zoho-vs-happyfox/">Zohodesk vs HappyFox</a></li>
+                                <li><a href="https://www.happyfox.com/a-gmail-alternative-for-customer-support/">Gmail Alternative for Support</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <ul class="sub-footer-menu">
+                            <h5 class="sub-footer-title">USE CASES</h5>
+                            <li><a href="https://www.happyfox.com/help-desk-software/">Help Desk Software</a></li>
+                            <li><a href="https://www.happyfox.com/help-desk-ticketing-system/">Ticketing System</a></li>
+                            <li><a href="https://www.happyfox.com/use-cases/shared-inbox-software/">Shared Inbox Software</a></li>
+                            <li><a href="https://www.happyfox.com/use-cases/trouble-ticket-software/">Trouble Ticket Management</a></li>
+                            <li><a href="https://www.happyfox.com/use-cases/issue-tracking-software/">Issue Tracking Software</a></li>
+                            <li><a href="https://www.happyfox.com/customer-service-software/">Customer Service</a></li>
+                            <li><a href="https://www.happyfox.com/use-cases/email-support-help-desk/">Email Support Software</a></li>
+                            <li><a href="https://www.happyfox.com/use-cases/customer-complaint-management-software/">Customer Complaint Management</a></li>
+                            <li><a href="https://www.happyfox.com/use-cases/internal-help-desk-software/">Internal HelpDesk Software</a></li>
+                            <li><a href="https://www.happyfox.com/software/ticket-tracking-software/">Ticket Tracking Software</a></li>
+                            <li><a href="https://www.happyfox.com/use-cases/cloud-contact-center/">Contact Center Software</a></li>
+                            <li><a href="https://www.happyfox.com/solution/it-help-desk-software/">IT Help Desk Software</a></li>
+                            <li><a href="https://www.happyfox.com/software/case-management-software/">Case Management Software</a></li>
+                            <li><a href="https://www.happyfox.com/cloud-help-desk/">Cloud Help Desk</a></li>
+                            <li><a href="https://www.happyfox.com/mobile-help-desk/">Mobile Help Desk</a></li>
+                            <li><a href="https://www.happyfox.com/remote-customer-support/">Remote Customer Support</a></li>
+                            <li><a href="https://www.happyfox.com/multi-brand-help-desk/">Multi-Brand Helpdesk</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="sub-footer-menu">
+                            <h5 class="sub-footer-title">RESOURCES</h5>
+                            <li><a href="https://www.happyfox.com/help-desk-resources/">E-Books & Guides</a></li>
+                            <li><a href="https://www.happyfox.com/webinars/">Webinars</a></li>
+                            <li><a href="https://www.happyfox.com/customer-stories/">Customer Stories</a></li>
+                            <li><a href="https://www.youtube.com/user/HappyFoxApp/">Videos</a></li>
+                            <li><a href="https://blog.happyfox.com/">Blog</a></li>
+                            <li><a href="https://support.happyfox.com/kb/article/360-api-for-happyfox/">Help Desk API Docs</a></li>
+                        </ul>
+                        <div>
+                            <ul class="sub-footer-menu">
+                                <h5 class="sub-footer-title">COMPANY</h5>
+                                <li><a href="https://www.happyfox.com/about-the-customer-support-company/">About Us</a></li>
+                                <li><a href="https://www.happyfox.com/customer-stories/">Our Customers</a></li>
+                                <li><a href="https://www.happyfox.com/jobs/">Jobs</a></li>
+                                <li><a href="https://www.happyfox.com/press/">Press & Media</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul class="sub-footer-menu">
+                                <h5 class="sub-footer-title">CONTACT US</h5>
+                                <li><a href="https://www.happyfox.com/contact/">Contact Sales</a></li>
+                                <li><a href="https://support.happyfox.com/kb/section/1/">Get Support</a></li>
+                                <li><a href="">1-949-535-2220</a></li>
+                                <li><a href="">support@happyfox.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- SUB-FOOTER ENDS -->
+
+            <!-- FOOTER-APPS STARTS -->
+            <section id="footer-apps">
+                <div class="row">
+                    <ul class="footer-app">
+                        <li><a href="https://www.happyfox.com/"><img class="footer-img" src="./img/footer/footer-app/helpdesk-footer.png" alt="help-desk" width="20" height="20">Help Desk</a></li>
+                        <li><a href="https://www.happyfox.com/assist-ai/"><img class="footer-img" src="./img/footer/footer-app/assist-ai-footer.png" alt="assist-ai" width="20" height="20">Assist AI</a></li>
+                        <li><a href="https://www.happyfox.com/live-chat/"><img class="footer-img" src="./img/footer/footer-app/livechat-footer.png" alt="livechat" width="20" height="20">Live Chat</a></li>
+                        <li><a href="https://www.happyfox.com/chatbot/"><img class="footer-img" src="./img/footer/footer-app/chatbot-footer.png" alt="chatbot" width="20" height="20">Chatbot</a></li>
+                        <li><a href="https://www.happyfox.com/business-intelligence/"><img class="footer-img" src="./img/footer/footer-app/business-intelligence-footer.png" alt="business-intelligent" width="20" height="20">Business Intelligence</a></li>
+                        <li><a href="https://www.happyfox.com/workflows/"><img class="footer-img" src="./img/footer/footer-app/workflows-footer.png" alt="workflow" width="20" height="20">Workflows</a></li>
+                        <li><a href="https://www.happyfox.com/in-app-chat/"><img class="footer-img" src="./img/footer/footer-app/inapp-chat-footer.png" alt="in-app-chat" width="20" height="20">In-App Chat</a></li>
+                    </ul>
+                </div>
+            </section>
+            <!-- FOOTER-APPS ENDS -->
+
+            <!-- MAIN-FOOTER STARTS -->
+            <section id="main-footer" class="main-footer-container">
+                <div class="row section-column-xs h-center-xs">
+                    <div class="cell-1 t-center-xs">
+                        <ul class="footer-menu">
+                            <li><a><img class="lang-icon" src="./img/footer/lang-icon.png" alt="lang-icon" width="17" height="15">English <img src="./img/menu-arrow.png" alt="arrow"></a></li>
+                            <li><a href="https://www.happyfox.com/terms-services/">Terms</a></li>
+                            <li><a href="https://www.happyfox.com/privacy-policy/">Privacy</a></li>
+                            <li><a href="https://status.happyfox.com/">Status</a></li>
+                            <li><a href="https://www.happyfox.com/data-security/">Security</a></li>
+                            <li><a href="https://www.happyfox.com/happyfox-gdpr/">GDPR</a></li>
+                        </ul>
+                    </div>
+                    <div class="cell-230w t-center-xs h-center-xs">
+                        <ul class="footer-menu-icons">
+                            <li><a href="https://www.facebook.com/pages/HappyFox/164796593638235"><img src="./img/footer/fb.png" alt="facebook-logo"></a></li>
+                            <li><a href="https://twitter.com/HappyFoxApp"><img src="./img/footer/twitter.png" alt="twitter-logo"></a></li>
+                            <li><a href="http://www.youtube.com/user/HappyFoxApp/"><img src="./img/footer/youtube.png" alt="youtube-logo"></a></li>
+                            <li><a href="https://www.linkedin.com/company/happyfox-inc-/"><img src="./img/footer/linkedin-logo-button.png" alt="linkedin-logo"></a></li>
+                        </ul>
+                    </div>
+                    <div class="cell-1 text-r t-center-xs">
+                        <span class="copyright-tagline">Copyright ©2022 HappyFox Inc. All rights reserved.</span>
+                    </div>
+                </div>
+            </section>
+            <!-- MAIN-FOOTER ENDS -->
+        </div>
+    </footer>
+    <!-- FOOTER ENDS -->
+    <script src="./script/script.js"></script>
+</body>
+</html>

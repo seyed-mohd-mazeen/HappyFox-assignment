@@ -1,0 +1,28 @@
+/*
+*
+* grid.css
+* @author - Mazeen
+* @date - 9 October, 2022
+**/
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    grid-row-gap: 20px;
+    grid-column-gap: 25px;
+}
+.grid-container-2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    grid-row-gap: 20px;
+    grid-column-gap: 25px;
+}
+.grid-container-4 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    grid-row-gap: 20px;
+    grid-column-gap: 25px;
+}

@@ -1,0 +1,105 @@
+/*
+*
+* form-field.css
+* @author - Mazeen
+* @date - 9 October, 2022
+**/
+
+.btn-container {
+    text-align: center;
+    padding-top: 7px;
+}
+.box-primary {
+    display: inline-block;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.box-secondary {
+    border: #dedede 1px solid;
+    display: inline-block;
+    border-radius: 12px;
+    background-color: #fff;
+}
+.primary-btn {
+    background: #ff6200;
+    font-size: 17px;
+    font-weight: 600;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.btn-l {
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 21px;
+    border-radius: 0 8px 8px 0;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.btn-xl {
+    font-weight: 700;
+    letter-spacing: normal;
+    font-size: 16px;
+    padding: 21px 25px;
+}
+.text-field {
+    padding: 18px 20px;
+    border: none;
+    border-radius: 8px 0 0 8px;
+    font-weight: 500;
+    font-size: 15px;
+    border: #f16631 2px solid;
+}
+.text-field-l {
+    padding: 16px 0 16px 19px;
+    border: none;
+    border-radius: 8px 0 0 8px;
+    font-weight: 500;
+    font-size: 16px;
+    width: 350px;
+}
+/* DEMO-PAGE CSS STARTS */
+.action-form input { 
+    margin:auto;
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 14px;
+    color: #181c20;
+    font-weight: 500;
+    border-radius: 8px;
+    border: 1px solid #a3a4a666;
+    background: #fff;
+    margin-bottom: 10px;
+}
+.action-form select {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 14px;
+    color: #181c20;
+    font-weight: 500;
+    border-radius: 8px;
+    border: 1px solid #a3a4a666;
+    background: #fff;
+    margin-bottom: 10px;
+}
+.demo-btn-container {
+    width: 100%;
+    margin-top: 15px;
+}
+.demo-btn {
+    text-transform: uppercase;
+    background: #ce2525;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 14px;
+    padding: 13px 0;
+    font-size: 14px;
+    margin: 0;
+    font-weight: 400;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+/* DEMO-PAGE CSS ENDS */

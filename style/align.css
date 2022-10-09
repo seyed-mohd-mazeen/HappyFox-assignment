@@ -1,0 +1,23 @@
+/*
+*
+* align.css
+* @author - Mazeen
+* @date - 9 October, 2022
+**/
+
+.text-r {
+    text-align: right;
+}
+.t-center {
+    text-align: center;
+}
+.align-mid {
+    vertical-align: middle;
+}
+.v-center {
+    display: inline-flex;
+    align-items: center;
+}
+.p-rel {
+    position: relative;
+}
