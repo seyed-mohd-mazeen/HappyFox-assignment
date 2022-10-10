@@ -240,6 +240,12 @@
     background-color: #fff;
     padding: 10px 10px;
 }
+.box-white i {
+    margin-left: 10px;
+}
+.box-white:hover {
+    background-color: #dce3e3;
+}
 .active-submenu {
     display: block;
 }
