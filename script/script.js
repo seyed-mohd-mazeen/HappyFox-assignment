@@ -1,3 +1,10 @@
+/*
+*
+* script.js
+* @author - Mazeen
+* @date - 9 October, 2022
+**/
+
 // USED FOR CLOSING AND OPENING THE ACCORDION
 // targetClass - GET THE CLASS NAMES FROM THE RESPESCTIVE ELEMENT
 // targetId - GETS THE ID FROM THE ELEMENT
